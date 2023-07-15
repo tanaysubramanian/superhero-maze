@@ -22,7 +22,7 @@ wetfloorsign-img =load-texture("wetfloorsign.png")
 wormhole-img = load-texture("wormhole.png")
 
 
-# Define your GameState datatype here
+# Defining GameState datatype
 data GameState:
   |game(superhero :: Superhero, gadgets :: List<Gadgets>)
 end
